@@ -1,0 +1,35 @@
+{
+  "name": "nqm-update-data-silent-failure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=nqm* node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGlautier/nqm-update-data-silent-failure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGlautier/nqm-update-data-silent-failure/issues"
+  },
+  "homepage": "https://github.com/IGlautier/nqm-update-data-silent-failure#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "dependencies": {
+    "@nqminds/nqm-api-tdx": "^0.8.0",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.15",
+    "lorem-ipsum": "^2.0.3",
+    "shortid": "^2.2.14"
+  }
+}
